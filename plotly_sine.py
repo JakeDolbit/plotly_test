@@ -17,6 +17,7 @@ x_init, y_init = generate_sine_wave(standard_freq)
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define the layout of the app
 app.layout = html.Div(children=[
